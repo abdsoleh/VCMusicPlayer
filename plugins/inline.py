@@ -21,14 +21,14 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('🏃 Deploy to Heroku 🏃', url='https://heroku.com/deploy?template=https://github.com/LushaiMusic/VCMusicPlayer'),
+        InlineKeyboardButton('Master', url='https://t.me/Shoto_GirlFriend_777/346'),
     ],
     [
         InlineKeyboardButton('👨‍🎤 Play Music', url=f'https://t.me/{USERNAME}'),
-        InlineKeyboardButton('How to Deploy 🤓', url='https://t.me/c/1481808444/131'),
+        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
     ],
     [
-        InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help')       
+        InlineKeyboardButton('🌀Help & Commands🌀', callback_data='help')       
     ]
     ]
 @Client.on_inline_query()
@@ -38,7 +38,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/LushaiMusic/VCMusicPlayer) below.</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>Omg You can't use this bot in your group.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
