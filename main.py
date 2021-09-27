@@ -93,7 +93,7 @@ bot.send(
             ),
             types.BotCommand(
                 command="replay",
-                description="Replay from beggining"
+                description="Replay from beggining bc the song is good"
             ),
             types.BotCommand(
                 command="clean",
@@ -101,7 +101,7 @@ bot.send(
             ),
             types.BotCommand(
                 command="pause",
-                description="Pause the song"
+                description="Pause the song if it damn necessery"
             ),
             types.BotCommand(
                 command="resume",
@@ -109,19 +109,19 @@ bot.send(
             ),
             types.BotCommand(
                 command="mute",
-                description="Mute in VC"
+                description="Rip Mute in VC"
             ),
             types.BotCommand(
                 command="volume",
-                description="Set volume between 0-200"
+                description="Set THE volume between 0-200"
             ),
             types.BotCommand(
                 command="unmute",
-                description="Unmute in VC"
+                description="Yay Unmute in VC"
             ),
             types.BotCommand(
                 command="restart",
-                description="Restart the bot"
+                description="Restart the bot if it has lag or something"
             )
         ]
     )
